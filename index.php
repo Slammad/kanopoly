@@ -14,7 +14,7 @@ include 'includes/head.inc.php';
 			<div class="content">
 				<h3>Project Reports!</h3>
 				<p>
-					Central Project Report Directory
+					Computerized Project Record System
 				</p>
 			<a class="btn" href="register.php">
 			<a href="viewprojects.php" class="btn btn-info" type="submit">VIEW PROJECTS</a>
@@ -33,7 +33,7 @@ include 'includes/head.inc.php';
 
 		<div class="container margin_120_95">
 			<div class="main_title">
-				<h2>CENTRALIZED <strong>PROJECT REPORT MANAGEMENT</strong> SYSTEM!</h2>
+				<h2>COMPUTERIZED <strong>PROJECT RECORD </strong> SYSTEM!</h2>
 				<p>This platform simply automates the manual storage of project report documents to an easy to use document organization system for Kano state polytechnic!
 				</p>
 			</div>

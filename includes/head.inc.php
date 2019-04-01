@@ -65,6 +65,11 @@ session_start();
 							<li class="submenu">
 								<a href="myprojects.php?user=<?=$username?>" class="show-submenu">My Projects<i class="icon"></i></a>
 							</li>
+							<?php if($dataset['isAdmin']){ ?>
+								<li class="submenu">
+								<a href="admin.php?user=<?=$username?>" class="show-submenu">Users<i class="icon"></i></a>
+							</li>
+							<?php }?>
 							<li class="submenu">
 								<a href="logout.php" class="show-submenu">Logout<i class="icon"></i></a>
 							</li>
