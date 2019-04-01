@@ -59,7 +59,7 @@ $runit = $conn->query($users);
                         <a href="#" class="btn btn-success">Edit</a>
                         <form action="" method="POST">
                                     <input type="hidden" name="id" value="<?=$userlist['id'];?>">
-                                    <button type="submit" name="deletereport" class="btn btn-danger">Delete</button>
+                                    <button type="submit" name="deleteuser" class="btn btn-danger">Delete</button>
                                 </form>
                         </td>
                       </tr>
@@ -78,10 +78,10 @@ $runit = $conn->query($users);
 <?php 
 
 
-if(isset($_POST['deletereport'])){
+if(isset($_POST['deleteuser'])){
   $id=$_POST['id'];
 
-  $query = "DELETE FROM `projects` WHERE `id`='$id'";
+  $query = "DELETE FROM `users` WHERE `id`='$id'";
   $delete = $conn->query($query);
 
   if($delete){
